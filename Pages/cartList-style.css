@@ -1,0 +1,88 @@
+body {
+	margin: 0 auto;
+	background: url(backgrounds/coverBackground.JPG) center fixed;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: persianFont;
+	src: url(Fonts/Aviny.ttf);
+}
+h1 {
+	font-family: persianFont;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 0px;
+}
+
+h3 {
+	border-bottom: solid rgba(255, 255, 255, 0.1) 3px;
+	margin:auto;
+	width: 150px;
+	text-align: center;
+}
+#table {
+	border: solid rgba(255, 255, 255, 0.1) 1px;
+	backdrop-filter: blur(20px);
+	margin: 50px 10px 0px 10px;
+	border-radius: 20px 20px 20px 20px;
+}
+.container1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.container {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.li1 {
+	list-style: none;
+	grid-column: 1/2;
+	text-align: center;
+}
+
+
+.li2 {
+	list-style: none;
+	grid-column: 2/3;
+	text-align: center;
+}
+.li3 {
+	list-style: none;
+	grid-column: 3/4;
+	text-align: center;
+}
+
+.li4 {
+	list-style: none;
+	grid-column: 4/5;
+	text-align: center;
+	align-self: center;
+}
+
+.delButtStyle {
+	font-family: persianFont;
+	color: white;
+	border-radius: 25%;
+	font-size: 15px;
+	background-color: transparent;
+}
+
+h5 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: persianFont;
+	font-size: 20px;
+	color: white;
+
+}
+

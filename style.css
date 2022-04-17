@@ -1,0 +1,203 @@
+body {
+	margin: 0px auto ;
+	background: url(backgrounds/coverBackground.JPG) center fixed;
+	background-size: cover;
+
+}
+
+@font-face {
+	font-family: comfortaa;
+	src : url(fonts/Comfortaa.ttf);
+}
+
+
+/*      NavBar
+----------------------------------------------------------------------------*/
+
+
+.navBar {
+	position: fixed;
+	z-index: 999;
+	width:98.5%;
+	margin:5px 5px 0px 5px;
+	border: solid rgba(255, 255, 255, 0.1) 1px;
+	border-radius: 10px 10px 10px 10px;
+	height: auto;
+	backdrop-filter: blur(10px);
+}
+li, a {
+	font-size: 15px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: comfortaa;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin: auto;
+}
+#cartLogo {
+	width: 25px;
+	height: 20px;
+}
+li:nth-child(5) {
+	margin-left: auto;
+	padding-right: 0px;
+}
+li:last-child {
+	margin-left: 0px auto;
+}
+#cartNum {
+	font-size: 15px;
+	width: 30px auto;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-left: 2px;
+	background-color: red;
+	border-radius: 8px 8px 8px 8px;
+}
+
+@media only screen and (max-width: 540px ) {
+	li, a {
+		font-size: 12px;
+		padding-right: 7px;
+		padding-left: 7px;
+	}
+}
+
+body {
+	background: url(backgrounds/coverBackground.JPG) center fixed;
+	background-size: cover;
+}
+
+#cartButt {
+	background: transparent;
+	border: none;
+}
+
+/*      Cover
+----------------------------------------------------------------------------*/
+
+#cover {
+	background: url(backgrounds/coverBackground.JPG) center fixed;
+	background-size: cover;
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+h1 {
+	text-align: center;
+	align-self: center;
+	font-family: comfortaa;
+	font-size: 30px;
+	grid-column: 1/4;
+	grid-row: 2;
+}
+
+.h11 {
+	color: white;
+}
+
+/*      Body
+----------------------------------------------------------------------------*/
+
+.body1 {
+	margin:5px 8px 0px 8px;
+	backdrop-filter: blur(10px);
+	border: solid rgba(255, 255, 255, 0.1) 1px;
+	border-radius: 10px 10px 10px 10px;
+	height: 200vh auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-rows: auto;
+}
+
+.bodyContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-self: center;
+	margin:30px;
+	width: 150px;
+	height: 260px;
+}
+
+img {
+	align-self: center;
+	width: 100px ;
+	height: 100px ;
+}
+
+textarea {
+	resize: none;
+	align-self: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-decoration: ltr;
+	background: transparent;
+	color: white;
+	border:0;
+	width: 140px;
+	height: 100px
+}
+
+.bodyBtn {
+	align-self: center;
+	justify-content: flex-end;
+	background-color: #45e89b;
+	border-color: #45e89b;
+	border-radius: 20px;
+	width: 120px;
+	height: 30px;
+	color: #1e6373;
+	font-family: arial;
+	font-weight: bold;
+}
+
+/*      Footer
+----------------------------------------------------------------------------*/
+
+.footer {
+	background: url(backgrounds/coverBackground.JPG) center fixed;
+	background-size: cover;
+	height: 80px auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.container li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.butt {
+	width: 100px;
+}
+
+#newsMail {
+	width: 180px;
+	text-align: center;
+	color: #278089;
+}
+
+#footerLast {
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+
